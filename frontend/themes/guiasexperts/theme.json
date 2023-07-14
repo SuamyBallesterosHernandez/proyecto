@@ -1,0 +1,9 @@
+{
+  "lumoImports" : [ "typography", "color", "spacing", "badge", "utility" ],
+  "assets" : {
+    "@fontsource/crimson-text" : {
+      "*.css" : "@fontsource/crimson-text",
+      "files/*" : "@fontsource/crimson-text/files"
+    }
+  }
+}

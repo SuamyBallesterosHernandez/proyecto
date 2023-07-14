@@ -1,0 +1,39 @@
+@import url('./main-layout.css');
+@import url('./views/registro-view.css');
+@import url('./views/gestion-cliente-view.css');
+@import url('./views/paquetes-hn-view.css');
+@import url('./views/gestion-reserva-view.css');
+@import url('./views/agregar-tarjeta-bancaria-view.css');
+@import url('@fontsource/crimson-text/index.css');    html {
+      --lumo-body-text-color: hsla(214, 95%, 37%, 0.94);
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+      --lumo-base-color: #c2ccc6;
+--lumo-font-family: Crimson Text;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-success-color: hsl(114, 50%, 55%);
+      --lumo-success-color-50pct: hsla(114, 50%, 55%, 0.5);
+      --lumo-success-color-10pct: hsla(114, 50%, 55%, 0.1);
+      --lumo-primary-color: hsl(201, 13%, 23%);
+      --lumo-primary-color-50pct: hsla(201, 13%, 23%, 0.5);
+      --lumo-primary-color-10pct: hsla(201, 13%, 23%, 0.1);
+      --lumo-shade-5pct: hsla(219, 24%, 15%, 0.05);
+      --lumo-shade-10pct: hsla(219, 24%, 15%, 0.1);
+      --lumo-shade-20pct: hsla(219, 24%, 15%, 0.2);
+      --lumo-shade-30pct: hsla(219, 24%, 15%, 0.3);
+      --lumo-shade-40pct: hsla(219, 24%, 15%, 0.4);
+      --lumo-shade-50pct: hsla(219, 24%, 15%, 0.5);
+      --lumo-shade-60pct: hsla(219, 24%, 15%, 0.6);
+      --lumo-shade-70pct: hsla(219, 24%, 15%, 0.7);
+      --lumo-shade-80pct: hsla(219, 24%, 15%, 0.8);
+      --lumo-shade-90pct: hsla(219, 24%, 15%, 0.9);
+      --lumo-shade: hsl(219, 24%, 15%);
+      --lumo-primary-text-color: hsla(168, 100%, 50%, 0.9);
+      --lumo-base-color: hsl(219, 24%, 15%);
+      --lumo-body-text-color: hsla(168, 100%, 50%, 0.9);
+
+    }
